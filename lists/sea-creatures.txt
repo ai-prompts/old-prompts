@@ -1,0 +1,100 @@
+Lobster
+Shrimp
+Squid
+Octopus
+Cuttlefish
+Nautilus
+Dolphin
+Porpoise
+Whale
+Orca
+Beluga
+Narwhal
+Sperm whale
+Pygmy sperm whale
+Dwarf sperm whale
+Cuvier's beaked whale
+Blainville's beaked whale
+Gervais' beaked whale
+Mesoplodon densirostris
+Perrin's beaked whale
+True's beaked whale
+Gray's beaked whale
+Shepherd's beaked whale
+Hubbs' beaked whale
+Bottlenose dolphin
+Risso's dolphin
+Common dolphin
+Whitebearded dolphin
+Atlantic spotted dolphin
+Clymene dolphin
+Striped dolphin
+Spinner dolphin
+Fraser's dolphin
+White-sided dolphin
+Pantropical spotted dolphin
+Hourglass dolphin
+Blackfish
+False killer whale
+Pygmy killer whale
+Melon-headed whale
+Pilot whale
+Longfinned pilot whale
+Shortfinned pilot whale
+Orca
+Killer whale
+Fin whale
+Blue whale
+Humpback whale
+Bowhead whale
+Minke whale
+Sei whale
+Bryde's whale
+Omura's whale
+Common minke whale
+Antarctic minke whale
+Northern minke whale
+Southern minke whale
+Sowerby's beaked whale
+Baird's beaked whale
+Arnoux's beaked whale
+Berardius bairdii
+Berardius arnuxii
+Gray's beaked whale
+Pygmy beaked whale
+Cuvier's beaked whale
+Blainville's beaked whale
+Gervais' beaked whale
+Mesoplodon densirostris
+Perrin's beaked whale
+True's beaked whale
+Crab-eater seal
+Weddell seal
+Leopard seal
+Ross seal
+Southern elephant seal
+Northern elephant seal
+Hooded seal
+Bearded seal
+Grey seal
+Harp seal
+Caspian seal
+Baikal seal
+Ringed seal
+Spotted Seal
+Arctic Seal
+Mediterranean Monk Seal
+Hawaiian Monk Seal
+West Indian Manatee
+Amazonian Manatee
+Dugong
+Beluga Whale
+narwhal whale
+Orca Whale
+Sperm Whale
+Pygmy Sperm Whale
+Dwarf Sperm Whale
+Baird's Beaked Whale
+Fin Whale
+Blue Whale
+Humpback Whale
