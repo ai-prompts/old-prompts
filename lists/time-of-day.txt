@@ -1,11 +1,11 @@
+afternoon
 dawn
 dusk
+early morning
 golden hour
-twilight
-night time
 late afternoon
 midday
 midnight
-early morning
 morning
-afternoon
+night time
+twilight

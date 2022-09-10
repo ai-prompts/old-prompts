@@ -1,38 +1,38 @@
-Leonardo da Vinci
-Rembrandt
-Vincent van Gogh
-Pablo Picasso
-Michelangelo
-Raphael
-Caravaggio
-Diego Velázquez
-Jan Vermeer
-Johannes Vermeer
-Peter Paul Rubens
-Frans Hals
-Bartolomé Esteban Murillo
-Diego Rivera
-Georgia O'Keeffe
-Salvador Dali
-Claude Monet
-Edouard Manet
-Henri de Toulouse-Lautrec
-Mary Cassatt
-Paul Cézanne
-Gustave Courbet
-Camille Pissarro
-Pierre-Auguste Renoir
-Johan Barthold Jongkind
-Eugène Delacroix
-John Constable
-Thomas Gainsborough
-Caspar David Friedrich
-JMW Turner
-Frederic Edwin Church
-William Blake
-John Singleton Copley
-Benjamin West
-Edward Hopper
-Andrew Wyeth
-Jackson Pollock
-Mark Rothko
+andrew wyeth
+bartolomé esteban murillo
+benjamin west
+camille pissarro
+caravaggio
+caspar david friedrich
+claude monet
+diego rivera
+diego velázquez
+edouard manet
+edward hopper
+eugène delacroix
+frans hals
+frederic edwin church
+georgia o'keeffe
+gustave courbet
+henri de toulouse-lautrec
+jackson pollock
+jan vermeer
+jmw turner
+johan barthold jongkind
+johannes vermeer
+john constable
+john singleton copley
+leonardo da vinci
+mark rothko
+mary cassatt
+michelangelo
+pablo picasso
+paul cézanne
+peter paul rubens
+pierre-auguste renoir
+raphael
+rembrandt
+salvador dali
+thomas gainsborough
+vincent van gogh
+william blake

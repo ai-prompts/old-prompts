@@ -1,31 +1,31 @@
-eerie
-misty
-foggy
-glistening
 after rain
-sun rays
-moody
-peaceful
-serene
-tranquil
-picturesque
-sunny
-cloudy
-overcast
-dark skies
-starry
-aurora
-fluffy clouds
-cumulonimbus
-rainbow
-storm
-tornado
-hurricane
-windy
-wet
-rain
-drizzle
-beautiful
-astounding
-foreboding
 apocalyptic
+astounding
+aurora
+beautiful
+cloudy
+cumulonimbus
+dark skies
+drizzle
+eerie
+fluffy clouds
+foggy
+foreboding
+glistening
+hurricane
+misty
+moody
+overcast
+peaceful
+picturesque
+rain
+rainbow
+serene
+starry
+storm
+sun rays
+sunny
+tornado
+tranquil
+wet
+windy
