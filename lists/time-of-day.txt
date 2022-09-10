@@ -1,0 +1,11 @@
+dawn
+dusk
+golden hour
+twilight
+night time
+late afternoon
+midday
+midnight
+early morning
+morning
+afternoon

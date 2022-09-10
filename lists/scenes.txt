@@ -1,0 +1,64 @@
+field
+shoreline
+cliffs
+beach
+meadow
+river
+stream
+forest
+woods
+woodland
+path
+track
+tree
+copse
+village
+town
+mountain
+mountains
+hill
+fjord
+lake
+pond
+glacier
+volcano
+canyon
+cave
+cavern
+grassland
+plains
+island
+rocky outcrop
+valley
+ruins
+folly
+castle
+church
+garden
+orchard
+farmyard
+pasture
+desert
+salt flats
+rock pool
+cityscape
+national park
+jungle
+rainforest
+cloud forest
+serengeti
+sea view
+rock face
+expanse
+geological
+rock formation
+wildflowers
+wildflower meadow
+long grass
+grassy
+flowers
+treetops
+canopy
+senote
+sinkhole
+crater

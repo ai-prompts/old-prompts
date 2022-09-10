@@ -1,8 +1,14 @@
 const { faker } = require('@faker-js/faker')
-const photoTypes = ['', '', '', 'close up ', 'candid ', 'street photography ']
-const prompt = `!dream \
-A ${faker.helpers.arrayElement(photoTypes)}portrait photo \
-of ${faker.name.fullName()}, ${faker.name.jobType().toLowerCase()} \
-in ${faker.address.country()}, by ${faker.name.fullName()} -n 9 -H 640`
+const fs = require('fs')
 
-console.log(prompt)
+const getList = (listName) => {
+  return fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
+}
+
+const randomFromList = (listname) => {
+  return faker.helpers.arrayElement(getList(listname))
+}
+
+for (let i = 0; i < 100; i++) {
+  console.log(`A landscape photo of ${randomFromList('scenes')}, ${randomFromList('scene-modifiers')}, ${randomFromList('scene-modifiers')}, ${randomFromList('time-of-day')}, ${faker.address.country()}, ${randomFromList('lenses')}`)
+}

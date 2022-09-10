@@ -1,0 +1,30 @@
+star
+galaxy
+nebula
+nebulae
+star cluster
+spiral galaxy
+black hole
+worm hole
+planet
+ringed planet
+mercury
+venus
+mars
+jupiter
+saturn
+neptune
+uranus
+pluto
+comet
+comet trail
+meteor
+meteorite
+pleiades
+messier
+exoplanet
+milky way
+andromeda
+big bang
+dark matter
+dark energy
