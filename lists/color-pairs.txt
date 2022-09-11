@@ -1,0 +1,13 @@
+baby blue, burgundy
+cream, chocolate
+lavender, gold
+lime green, ivory
+magenta, blue
+orange, cyan
+peach, navy
+pink, teal
+red, green
+silver, maroon
+sky blue, rose
+white, black
+yellow, violet
