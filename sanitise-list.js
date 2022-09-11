@@ -3,7 +3,12 @@ const dir = fs.opendirSync('lists')
 let file
 
 while ((file = dir.readSync()) !== null) {
-  let list = fs.readFileSync(`lists/${file.name}`).toString().toLowerCase().split('\n').filter(e => String(e).trim())
+  let list = fs.readFileSync(`lists/${file.name}`)
+    .toString()
+    .toLowerCase()
+    .split('\n')
+    .filter(e => String(e).trim())
+    .map(e => e.replace(/^\s+-\s+|^-\s+|^\s+/g, ''))
 
   // Dedupe
   list = [...new Set(list)]
