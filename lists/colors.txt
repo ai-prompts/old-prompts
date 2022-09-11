@@ -1,5 +1,6 @@
 apricot
 aqua
+azure
 beige
 black
 blue
@@ -7,22 +8,27 @@ brown
 chartreuse
 cobalt
 crimson
+cyan
 ecru
 fuchsia
 gold
 gray
 green
+grey
 indigo
 ivory
 lavender
 lemon
+lime
 magenta
 maroon
 mauve
+mint green
 navy
 ocher
 olive
 orange
+orchid
 peach
 periwinkle
 pink
@@ -32,11 +38,14 @@ red
 russet
 saffron
 sage
+salmon
 silver
+sky blue
 tan
 taupe
 teal
 turquoise
 ultramarine
+violet
 white
 yellow
