@@ -1,10 +1,10 @@
-baby blue, burgundy
 beige, black
 brown, white
 cream, chocolate
 gray, yellow
 green, purple
 lavender, gold
+light blue, burgundy
 light blue, dark blue
 light green, dark green
 light purple, dark purple

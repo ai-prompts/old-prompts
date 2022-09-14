@@ -60,6 +60,7 @@ cézanne
 charles addams
 charles dana gibson
 chesley bonestell
+chiharu shiota
 chris foss
 chris moore
 chris rallis
@@ -252,6 +253,7 @@ laurie lipton
 lawren harris
 lee madgwick
 leo and diane dillon
+leonid afremov
 leonora carrington
 liam wong
 lise deharme
@@ -317,6 +319,7 @@ ralph horsley
 ralph mcquarrie
 randolph caldecott
 raphael lacoste
+ravi zupa
 ray caesar
 raymond swanland
 rebecca guay
