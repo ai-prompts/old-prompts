@@ -9,7 +9,6 @@ doppler imaging
 echocardiography
 fluoroscopy
 intraoral photography
-list 100 types of medical imaging:
 mra
 mri
 myelography
