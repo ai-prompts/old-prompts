@@ -1,10 +1,11 @@
-apricot
 aqua
 azure
 beige
 black
 blue
+bronze
 brown
+burgundy
 chartreuse
 cobalt
 crimson
@@ -23,22 +24,16 @@ lime
 magenta
 maroon
 mauve
-mint green
 navy
 ocher
-olive
 orange
-orchid
-peach
 periwinkle
 pink
-plum
+platinum
 purple
 red
 russet
 saffron
-sage
-salmon
 silver
 sky blue
 tan

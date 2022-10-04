@@ -1,0 +1,11 @@
+bright
+dark
+light
+metallic
+muted
+neon
+pastel
+radiant
+strong
+very dark
+very light

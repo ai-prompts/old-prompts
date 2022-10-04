@@ -6,6 +6,13 @@ const list = (listName) => {
   return fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
 }
 
+const colors = []
+list('color').forEach((c) => {
+  list('color-modifier').forEach((m) => {
+    colors.push(`${m} ${c}`)
+  })
+})
+
 const lists = (lists) => {
   return lists.map(l => list(l)).flat()
 }
@@ -25,6 +32,10 @@ const artist = (count) => {
 
 const trending = (count) => {
   return item('trending', count)
+}
+
+const color = (count) => {
+  return _.sample(colors, count).join(', ')
 }
 
 const country = () => {
@@ -71,6 +82,7 @@ module.exports = {
   adjectiveNoun,
   artist,
   century,
+  color,
   country,
   jobTitle,
   jobType,
