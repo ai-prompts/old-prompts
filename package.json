@@ -10,5 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "@faker-js/faker": "^7.4.0"
+  },
+  "dependencies": {
+    "underscore": "^1.13.6"
   }
 }

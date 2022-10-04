@@ -1,16 +1,29 @@
 const fs = require('fs')
-const { faker } = require('@faker-js/faker')
+const _ = require('underscore')
 
-const getList = (listName) => {
+const list = (listName) => {
   return fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
 }
 
-const getLists = (lists) => {
-  return lists.map(l => getList(l)).flat()
+const lists = (lists) => {
+  return lists.map(l => list(l)).flat()
 }
 
-const randomFromList = (listname, count = 1) => {
-  return faker.helpers.arrayElements(getList(listname), count).join(', ')
+const item = (listName, count = 1) => {
+  return _.sample(list(listName), count).join(', ')
+  // return faker.helpers.arrayElements(list(listName), count).join(', ')
+}
+
+const adjectiveNoun = () => {
+  return `${item('word-adjective')} ${item('word-noun')}`
+}
+
+const artist = (count) => {
+  return item('artist-full', count)
+}
+
+const trending = (count) => {
+  return item('trending', count)
 }
 
 /**
@@ -26,8 +39,11 @@ const shuffle = (a) => {
 }
 
 module.exports = {
-  getList,
-  getLists,
-  randomFromList,
-  shuffle
+  adjectiveNoun,
+  artist,
+  list,
+  lists,
+  item,
+  shuffle,
+  trending
 }
