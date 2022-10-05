@@ -3,6 +3,10 @@ const dir = fs.opendirSync('lists')
 let file
 
 while ((file = dir.readSync()) !== null) {
+  if (file.name === 'days.txt') {
+    continue
+  }
+
   let list = fs.readFileSync(`lists/${file.name}`)
     .toString()
     .toLowerCase()
