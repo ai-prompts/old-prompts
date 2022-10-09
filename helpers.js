@@ -26,6 +26,23 @@ const adjectiveNoun = () => {
   return `${item('word-adjective')} ${item('word-noun')}`
 }
 
+let allItems = []
+const all = (count) => {
+  if (allItems.length === 0) {
+    const dir = fs.opendirSync('lists')
+    const allLists = []
+    let file
+
+    while ((file = dir.readSync()) !== null) {
+      allLists.push(file.name.split('.')[0])
+    }
+
+    allItems = lists(allLists)
+  }
+
+  return _.sample(allItems, count).join(', ')
+}
+
 const artist = (count) => {
   return item('artist-full', count)
 }
@@ -84,6 +101,7 @@ const shuffle = (a) => {
 
 module.exports = {
   adjectiveNoun,
+  all,
   animal,
   artist,
   century,
