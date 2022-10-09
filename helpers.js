@@ -30,6 +30,10 @@ const artist = (count) => {
   return item('artist-full', count)
 }
 
+const animal = (count) => {
+  return item('animal', count)
+}
+
 const trending = (count) => {
   return item('trending', count)
 }
@@ -80,6 +84,7 @@ const shuffle = (a) => {
 
 module.exports = {
   adjectiveNoun,
+  animal,
   artist,
   century,
   color,
