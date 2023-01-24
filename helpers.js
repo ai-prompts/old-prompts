@@ -19,7 +19,6 @@ const lists = (lists) => {
 
 const item = (listName, count = 1) => {
   return _.sample(list(listName), count).join(', ')
-  // return faker.helpers.arrayElements(list(listName), count).join(', ')
 }
 
 const adjectiveNoun = () => {
@@ -62,7 +61,7 @@ const trending = (count) => {
   return item('trending', count)
 }
 
-const color = (count) => {
+const color = (count = 1) => {
   return _.sample(colors, count).join(', ')
 }
 

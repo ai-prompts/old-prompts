@@ -1,14 +1,24 @@
-const { faker } = require('@faker-js/faker')
-const fs = require('fs')
+const h = require('./helpers')
+const prompts = []
+const number = 10
 
-const getList = (listName) => {
-  return fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
+/*
+
+Generate your prompts here
+
+For example:
+
+h.list('artists').forEach((a) => {
+  prompts.push(`a painting by ${a}`)
+})
+
+for (let i = 0; i < number; i++) {
+  prompts.push(`${h.item('word-noun', 4)}, ${h.item('prayers', 5)}`)
 }
 
-const randomFromList = (listname) => {
-  return faker.helpers.arrayElement(getList(listname))
-}
+*/
 
-for (let i = 0; i < 100; i++) {
-  console.log(`A landscape photo of ${randomFromList('scenes')}, ${randomFromList('scene-modifiers')}, ${randomFromList('scene-modifiers')}, ${randomFromList('time-of-day')}, ${faker.address.country()}, ${randomFromList('lenses')}`)
-}
+// h.shuffle(prompts)
+prompts.forEach((p, i) => {
+  console.log(`${p}`)
+})
