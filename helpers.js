@@ -27,14 +27,21 @@ const adjectiveNoun = () => {
 }
 
 let allItems = []
-const all = (count) => {
+const all = (count, without = []) => {
+  if (!Array.isArray(without)) {
+    without = [without]
+  }
+
   if (allItems.length === 0) {
     const dir = fs.opendirSync('lists')
     const allLists = []
     let file
 
     while ((file = dir.readSync()) !== null) {
-      allLists.push(file.name.split('.')[0])
+      const listName = file.name.split('.')[0]
+      if (!without.some(w => w === listName)) {
+        allLists.push(listName)
+      }
     }
 
     allItems = lists(allLists)
