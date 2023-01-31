@@ -41,6 +41,8 @@ autonomous deep-sea exploration vehicle
 autonomous robot
 autonomous robots
 biomechanical implant
+bipedal drone
+bipedal entertainment robot
 brain-computer interface
 brain-computer interface device
 climate control device
@@ -54,9 +56,13 @@ cyborg
 deep space data relay
 deep space probe
 deep space research platform
+disaster response robot
 drone
 drones
+elder care robot
 energy sword
+entertainment robot
+exoskeleton robot
 exoskeleton suit
 flying cars
 force field generator
@@ -69,11 +75,18 @@ holographic display
 holographic entertainment system
 holographic keyboard
 holographic storage device
+human augmentation device
 human augmentation implant
 human augmentation serum
 human augmentation suit
 human enhancement serum
+human-form robot
+human-sized robot
+humanoid machine
+humanoid robot
+humanoid search and rescue robot
 hyperloop
+industrial robot
 intergalactic navigation system
 intergalactic trade network
 intergalactic transport system
@@ -83,6 +96,8 @@ invisibility cloak
 magnetic levitation train
 mars atmosphere terraforming device
 mars terraforming machine
+medical robot
+military robot
 mind backup device
 mind control device
 mind mapping device
@@ -99,15 +114,18 @@ orbital defense system
 organic-artificial hybrid organism
 particle accelerator
 particle beam weapon
+personal assistant robot
 personal jetpack
 personalized fitness trainer device
 personalized healthcare device
 personalized medicine dispenser
 personalized nutrition pill dispenser
 quantum computer
+rehabilitation robot
 robot
 robots
 self-driving car
+service robot
 shape-shifting material
 smart cities
 smart city device
@@ -127,6 +145,7 @@ space elevator control system
 space elevator maintenance robot
 space elevator power system
 space elevator terminal
+space exploration robot
 space habitat
 space rescue pod
 space station habitat module
@@ -162,6 +181,7 @@ time travel device
 underwater cities
 virtual reality headset
 virtual world platform
+walking assist device
 warp drive engine
 warp drive engine module
 wearable technology
