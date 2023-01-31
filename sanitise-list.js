@@ -2,7 +2,7 @@ const fs = require('fs')
 const dir = fs.opendirSync('lists')
 let file
 
-const excludedLists = ['cities', 'days']
+const excludedLists = ['city', 'day']
 
 while ((file = dir.readSync()) !== null) {
   if (excludedLists.some(e => file.name.includes(e))) {

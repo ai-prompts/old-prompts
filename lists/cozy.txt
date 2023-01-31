@@ -1,0 +1,71 @@
+bathroom, elegant-chandelier, intimate-double vanity, cozy-fireplace, relaxing-essential oil diffuser
+bathroom, elegant, intimate, rain shower, string lights
+bathroom, intimate-dimmable lighting, cozy-heated floors, elegant-freestanding tub, relaxing-whirlpool jets
+bathroom, luxurious-jacuzzi, romantic-rose petals, warm-heated floors, intimate-candlelight
+bathroom, relaxing-spa, intimate-bubble bath, cozy-fireplace, elegant-marble surfaces
+bathroom, relaxing, intimate, bubble bath, scented candles
+bathroom, relaxing, spa-like, bubble bath
+bathroom, relaxing, spa-like, jacuzzi, rose petals
+bathroom, romantic-rain shower, bright-skylight, inviting-sunken tub, cozy-fleece robe
+bathroom, romantic, spa-like, jacuzzi, rose petals
+bathroom, spa-like-steam shower, intimate-two-person tub, cozy-fluffy towels, romantic-string lights
+bedroom, bright, cheerful, string lights, succulent plants
+bedroom, cozy, organized, bookshelf, reading lamp
+bedroom, cozy, warm, fireplace, flannel sheets
+bedroom, fun, inviting, beanbag chair
+bedroom, intimate, welcoming, canopy bed, fairy lights
+bedroom, inviting, comfortable, bean bag, cozy blanket
+bedroom, inviting, comfortable, bed
+bedroom, inviting, comfortable, four-poster bed, feather duvet
+bedroom, relaxing, spa-like
+bedroom, romantic, intimate, canopy bed, string lights
+bedroom, rustic, homey, armchair, blanket
+dining room, intimate, elegant, candles, table for two
+dining room, intimate, welcoming, table
+garden, cozy, inviting, table, candles
+garden, elegant, intimate, wine cooler, table for two
+garden, intimate, welcoming, canopy bed, fairy lights
+garden, private, intimate, gazebo, rose petals
+garden, relaxing
+garden, romantic, intimate, gazebo, string lights
+guest room, inviting, comfortable, bed
+guest room, inviting, romantic, four-poster bed, feather duvet
+gym, invigorating, energizing, exercise equipment
+home office, cozy, organized, desk
+home office, cozy, organized, desk, bookshelf
+home office, inviting, comfortable, bean bag, cozy blanket
+kitchen, elegant, intimate, wine cooler, table for two
+kitchen, rustic, homey, table
+laundry room, organized, functional, washer and dryer
+library, bright, cheerful, string lights, succulent plants
+library, cozy, intimate, bookshelves, reading lamp
+library, cozy, inviting, bookshelves
+library, cozy, inviting, table, candles
+library, cozy, organized, bookshelf, reading lamp
+library, elegant, intimate, wine cooler, table for two
+library, intimate, welcoming, bookshelves, reading lamp
+library, intimate, welcoming, canopy bed, fairy lights
+library, inviting, comfortable, bean bag, cozy blanket
+library, relaxing, spa-like, essential oil diffuser, egyptian cotton sheets
+library, romantic, intimate, bookshelves, reading lamp
+living room, bright, cheerful, lounge chair, potted plants
+living room, cozy, organized, bookshelves, reading lamp
+living room, cozy, romantic, fireplace, chesterfield sofa
+living room, cozy, warm, fireplace
+living room, cozy, warm, fireplace, throw blanket
+living room, intimate, welcoming, table, candles
+living room, inviting, coffee table
+living room, inviting, comfortable, bean bag, cozy blanket
+living room, inviting, comfortable, sofa, pillows
+living room, relaxing, candles
+living room, rustic, homey, armchair, rug
+outdoor, private, intimate, gazebo, string lights
+pool, relaxing, romantic, jacuzzi, pool lights
+reading room, cozy, inviting, table, candles
+spa room, relaxing, calming, hot tub
+study nook, bright, cheerful, window seat, potted plant
+study room, inviting, comfortable, armchair, floor lamp
+sunroom, bright, cheerful, lounge chair
+sunroom, bright, elegant, lounge chairs, potted plants
+terrace, intimate, private, table for two, string lights
+workshop, functional, organized, workbench
