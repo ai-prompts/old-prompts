@@ -2,8 +2,25 @@ const fs = require('fs')
 const { faker } = require('@faker-js/faker')
 const _ = require('underscore')
 
-const list = (listName) => {
-  return fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
+const list = (listName, opt) => {
+  const options = opt || {}
+  const excludes = options.excludes || []
+  const includes = options.includes || []
+  let l = fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
+
+  if (includes.length > 0) {
+    l = l.filter((i) => {
+      return includes.some(include => i.includes(include))
+    })
+  }
+
+  if (excludes.length > 0) {
+    l = l.filter((i) => {
+      return !excludes.some(exclude => i.includes(exclude))
+    })
+  }
+
+  return l
 }
 
 const colors = []
@@ -13,12 +30,17 @@ list('color').forEach((c) => {
   })
 })
 
-const lists = (lists) => {
-  return lists.map(l => list(l)).flat()
+const lists = (lists, listOptions) => {
+  return lists.map(l => list(l, listOptions)).flat()
 }
 
-const item = (listName, count = 1) => {
-  return _.sample(list(listName), count).join(', ')
+const item = (listName, count = 1, listOptions = {}) => {
+  if (typeof count === 'object') {
+    listOptions = count
+    count = 1
+  }
+
+  return _.sample(list(listName, listOptions), count).join(', ')
 }
 
 const adjectiveNoun = () => {
@@ -105,6 +127,10 @@ const shuffle = (a) => {
   return a
 }
 
+const save = (prompts, file = 'prompts.txt') => {
+  fs.writeFileSync(file, prompts.join('\n'))
+}
+
 module.exports = {
   adjectiveNoun,
   all,
@@ -119,6 +145,7 @@ module.exports = {
   lists,
   item,
   name,
+  save,
   shuffle,
   trending,
   year
