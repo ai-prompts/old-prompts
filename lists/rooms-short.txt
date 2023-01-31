@@ -1,0 +1,7 @@
+bathroom
+bedroom
+garage
+guest room
+home office
+kitchen
+living room
