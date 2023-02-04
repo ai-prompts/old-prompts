@@ -40,7 +40,7 @@ const item = (listName, count = 1, listOptions = {}) => {
     count = 1
   }
 
-  return _.sample(list(listName, listOptions), count).join(', ')
+  return _.sample(list(listName, listOptions), count).join(', ').trim()
 }
 
 const adjectiveNoun = () => {
@@ -131,14 +131,35 @@ const save = (prompts, file = 'prompts.txt') => {
   fs.writeFileSync(file, prompts.join('\n'))
 }
 
+const filterBanned = (prompts) => {
+  return prompts.filter((prompt) => {
+    return !banned().some(b => prompt.includes(b))
+  })
+}
+
+const stripBannedWords = (prompts) => {
+  return prompts.map(prompt => {
+    return banned().reduce((acc, bannedWord) => {
+      return acc.replace(bannedWord, '')
+    }, prompt).trim()
+  })
+}
+
+const banned = () => {
+  return list('midjourney-banned')
+}
+
 module.exports = {
   adjectiveNoun,
   all,
   animal,
   artist,
+  banned,
   century,
   color,
   country,
+  filterBanned,
+  stripBannedWords,
   jobTitle,
   jobType,
   list,
