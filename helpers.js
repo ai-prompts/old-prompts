@@ -68,7 +68,6 @@ const adjectiveNoun = () => {
 }
 
 
-  return _.sample(allItems, count).join(', ')
 }
 
 const artist = (count) => {
