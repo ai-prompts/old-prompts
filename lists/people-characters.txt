@@ -1,0 +1,348 @@
+a banshee
+a basilisk
+a best friend
+a biker
+a billionaire
+a black ops agent
+a blind date
+a bodyguard
+a bomb squad specialist
+a bomber
+a career-focused person
+a centaur
+a clown
+a college student
+a colonizer of a new world
+a commando
+a commitment-phobe
+a conspiracy theorist
+a cop
+a cosmic horror entity
+a covert operative
+a crime boss
+a criminal
+a criminal mastermind
+a cult leader
+a cursed individual
+a cursed object owner
+a cyber-enhanced soldier
+a cyberpunk anti-hero
+a cyborg
+a cyborg assassin
+a cyborg rebel
+a cyclops
+a dark wizard
+a demon
+a demon hunter
+a demon prince
+a demon princess
+a demon-possessed individual
+a detective
+a detective with a troubled past
+a dragon
+a dragon rider
+a dragon slayer
+a dryad
+a dwarf
+a fairy
+a fake boyfriend
+a fake girlfriend
+a famous athlete
+a famous musician
+a firearms expert
+a firefighter
+a first-time driver
+a first-time voter
+a flirtatious person
+a future dictator
+a future resistance leader
+a futuristic society member
+a gang leader
+a gangster
+a genetically engineered being
+a ghost
+a ghost hunter
+a ghostly apparition
+a ghostly victim
+a giant
+a gnome
+a golem
+a gorgon
+a government agent
+a griffin
+a hacker
+a hand-to-hand combat expert
+a harpy
+a haunted amusement park attendee
+a haunted doll
+a haunted hotel guest
+a haunted house occupant
+a heartbroken person
+a high school dropout
+a high school student
+a high school sweetheart
+a hitman
+a hitman-turned-protector
+a hitwoman
+a hopeless romantic
+a intelligence officer
+a jilted lover
+a journalist
+a killer
+a king
+a kraken
+a legendary monster
+a legendary pirate
+a leprechaun
+a light wizard
+a long-distance lover
+a love at first sight character
+a love triangle protagonist
+a mad bomber
+a mad scientist
+a magical creature
+a marksman
+a martial artist
+a mercenary
+a mermaid
+a merman
+a military commander
+a minotaur
+a misfit teenager
+a mistaken identity character
+a misunderstood teenager
+a monster
+a movie star
+a mythical creature
+a mythological creature slayer
+a newly single person
+a ninja
+a notorious gangster
+a notorious serial killer
+a nymph
+a parkour expert
+a phoenix
+a pilot
+a pirate
+a police officer
+a political activist
+a post-apocalyptic survivor
+a post-apocalyptic technologist
+a post-apocalyptic tribe leader
+a prince
+a princess
+a prison escapee
+a prison warden
+a private investigator
+a queen
+a race car driver
+a rebellious teenager
+a religious cult member
+a robot
+a robotic life form
+a rogue agent
+a rogue ai
+a romantic rival
+a ruthless dictator
+a ruthless killer
+a satyr
+a school athlete
+a school nerd
+a school outcast
+a scientist
+a secret agent
+a sentient alien species member
+a sentient machine
+a shape shifter
+a shape-shifting thief
+a shapeshifter
+a siren
+a sniper
+a soldier
+a sorcerer
+a sorceress
+a space colony leader
+a space explorer
+a space opera hero
+a space pirate
+a space warrior
+a space western outlaw
+a space-bound adventurer
+a space-faring hero
+a spaceship captain
+a special forces operator
+a sprite
+a spy
+a stranded astronaut
+a stunt double
+a succubus
+a supercomputer controlling entity
+a superhero
+a superhero mentor
+a superhero sidekick
+a supernatural being
+a supernatural being hunter
+a supernatural entity researcher
+a supernatural investigator
+a survivalist
+a swordsman
+a teacher
+a technologically advanced species member
+a teenage activist
+a teenage adventurer
+a teenage artist
+a teenage criminal
+a teenage detective
+a teenage foster child
+a teenage love interest
+a teenage monster hunter
+a teenage musician
+a teenage partygoer
+a teenage pregnancy
+a teenage runaway
+a teenage supernatural being
+a teenage survivalist
+a teenage vampire
+a teenage werewolf
+a teenage witch
+a teenage wizard
+a teenager
+a telekinetic individual
+a telepathic individual
+a thief
+a thief-turned-hero
+a time paradox character
+a time paradox survivor
+a time traveler
+a time-hopping adventurer
+a time-looping character
+a time-manipulating character
+a time-traveling adventurer
+a time-travelling rogue
+a traumatized survivor
+a traumatized veteran
+a troll
+a unicorn
+a vampire
+a vampire hunter
+a vampire king
+a vampire queen
+a vampire slayer
+a vigilante
+a vigilante justice seeker
+a virtual reality dweller
+a virtual reality escapee
+a war hero
+a warlock
+a warrior
+a wedding planner
+a were-creature
+a werewolf
+a wingman
+a witch
+a witch coven leader
+a witch hunter
+a wizard
+a young adult
+a young adventurer
+a young alien
+a young animal rights activist
+a young archaeologist
+a young artist
+a young astronaut
+a young ballerina
+a young black sheep
+a young blogger
+a young boxer
+a young chef
+a young cowboy
+a young cowgirl
+a young dancer
+a young detective
+a young doctor
+a young dragon rider
+a young eco-warrior
+a young entrepreneur
+a young environmentalist
+a young explorer
+a young fashion designer
+a young fire fighter
+a young firefighter
+a young first-time offender
+a young foster parent
+a young gang member
+a young ghost hunter
+a young gymnast
+a young hacker
+a young hero
+a young heroine
+a young inventor
+a young journalist
+a young karate master
+a young librarian
+a young magician
+a young monster hunter
+a young musician
+a young ninja
+a young ninja warrior
+a young nurse
+a young orphan
+a young parent
+a young pirate
+a young police officer
+a young prince
+a young princess
+a young prodigy
+a young race car driver
+a young rebel with a cause
+a young rebel without a cause
+a young scientist
+a young scuba diver
+a young skateboarder
+a young snowboarder
+a young social media influencer
+a young soldier
+a young sports player
+a young street artist
+a young superhero
+a young surfer
+a young survivalist
+a young teacher
+a young time traveler
+a young vampire
+a young victim of bullying
+a young witch
+a young wizard
+a zombie
+a zombie apocalypse survivor
+a zombie hunter
+a zombie outbreak survivor
+an advanced alien race member
+an ai interface character
+an alien
+an alien artifact researcher
+an alien colonizer
+an alien invasion leader
+an android revolution leader
+an angel
+an animal sidekick
+an arranged marriage partner
+an artificial intelligence
+an assassin
+an augmented reality user
+an elemental being
+an elf
+an enhanced human
+an evil alien invader
+an evil corporation executive
+an evil sorcerer
+an evil sorceress
+an ex-convict
+an explosives expert
+an extraterrestrial detective
+an incubus
+an intergalactic bounty hunter
+an intergalactic mercenary
+an intergalactic smuggler
+an ogre
+an undercover agent

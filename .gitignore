@@ -2,3 +2,4 @@ node_modules
 .DS_Store
 prompts.txt
 *.scpt
+temp.txt
