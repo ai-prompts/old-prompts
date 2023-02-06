@@ -1,6 +1,13 @@
 const fs = require('fs')
+const path = require('path')
 const { faker } = require('@faker-js/faker')
 const _ = require('underscore')
+
+const listsPath = 'lists'
+const allLists = fs
+  .readdirSync(listsPath)
+  .filter(file => path.extname(file) === '.txt')
+  .map(file => file.split('.')[0])
 
 const list = (listName, opt) => {
   const options = opt || {}
@@ -23,16 +30,29 @@ const list = (listName, opt) => {
   return l
 }
 
+const lists = (lists, listOptions) => {
+  return lists.map(l => list(l, listOptions)).flat()
+}
+
+const listsStarting = (start, listOptions) => {
+  return lists(allLists.filter(l => l.startsWith(start)), listOptions)
+}
+
+const fromAll = (start, count = 1, listOptions) => {
+  if (typeof count === 'object') {
+    listOptions = count
+    count = 1
+  }
+
+  return _.sample(listsStarting(start, listOptions), count).join(', ').trim()
+}
+
 const colors = []
 list('color').forEach((c) => {
   list('color-modifier').forEach((m) => {
     colors.push(`${m} ${c}`)
   })
 })
-
-const lists = (lists, listOptions) => {
-  return lists.map(l => list(l, listOptions)).flat()
-}
 
 const item = (listName, count = 1, listOptions = {}) => {
   if (typeof count === 'object') {
@@ -47,26 +67,6 @@ const adjectiveNoun = () => {
   return `${item('word-adjective')} ${item('word-noun')}`
 }
 
-let allItems = []
-const all = (count, without = []) => {
-  if (!Array.isArray(without)) {
-    without = [without]
-  }
-
-  if (allItems.length === 0) {
-    const dir = fs.opendirSync('lists')
-    const allLists = []
-    let file
-
-    while ((file = dir.readSync()) !== null) {
-      const listName = file.name.split('.')[0]
-      if (!without.some(w => w === listName)) {
-        allLists.push(listName)
-      }
-    }
-
-    allItems = lists(allLists)
-  }
 
   return _.sample(allItems, count).join(', ')
 }
@@ -85,6 +85,10 @@ const trending = (count) => {
 
 const color = (count = 1) => {
   return _.sample(colors, count).join(', ')
+}
+
+const cinematic = (count = 1) => {
+  return fromAll('cinematic', count)
 }
 
 const country = () => {
@@ -151,10 +155,10 @@ const banned = () => {
 
 module.exports = {
   adjectiveNoun,
-  all,
   animal,
   artist,
   banned,
+  cinematic,
   century,
   color,
   country,
@@ -164,7 +168,9 @@ module.exports = {
   jobType,
   list,
   lists,
+  listsStarting,
   item,
+  fromAll,
   name,
   save,
   shuffle,
