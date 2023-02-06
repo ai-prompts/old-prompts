@@ -222,7 +222,7 @@ silent hill 2
 silent hill 3
 silent hill 4: the room
 skylanders
-smash bros.
+smash bros
 soma
 sonic the hedgehog
 sonic the hedgehog 2
@@ -242,10 +242,10 @@ star wars: knights of the old republic
 starcraft
 stardew valley
 street fighter
-super mario bros.
+super mario bros
 super mario maker 2
 super mario odyssey
-super smash bros.
+super smash bros
 superhot
 system shock 2
 tacoma
