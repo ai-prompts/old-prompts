@@ -14,7 +14,7 @@ while ((file = dir.readSync()) !== null) {
     .toLowerCase()
     .split('\n')
     .filter(e => String(e).trim())
-    .map(e => e.replace(/^\s+-\s+|^-\s+|^\s+/g, ''))
+    .map(e => e.replace(/^\s+-\s+|^-\s+|^\s+/g, '').replace(/\.$/, ''))
 
   // Dedupe
   list = [...new Set(list)]
