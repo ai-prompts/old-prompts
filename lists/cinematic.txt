@@ -6,135 +6,15 @@
 8k resolution
 8mm film
 9.5mm film
-aerial shot
 anamorphic
-aspect ratio
 betamax
-bird's-eye view shot
-blur
-bokeh
-bold color grading
-bright color grading
-cgi
 chromakey
-chromatic aberrations
 cinemascope
 cinematic
 cinematography
 cineon
 cinestill
-close-up scene
-close-up shot
-color correction
-color grading
-cool color grading
-cool-toned color grading
-crane shot
-cross-cutting
-cross-processed color grading
-crowd shot
-cutaway scene
-cutaway shot
-day-for-night color grading
-de-noise
-deep focus
-depth of field
-desaturated color grading
-distortion
-dolly shot
-dollying
-drone shot
-duotone color grading
-dutch angle shot
-earthy color grading
-establishing shot
-extreme close-up shot
-faded color grading
-fantasy shot
-film noir color grading
-film still
-filmic color grading
-flashback scene
-flashback shot
-flicker
-freeze-frame shot
-glare
-grain
-grit
-group shot
-handheld shot
-hard light
-haze
-hdr
-high-angle shot
-high-key color grading
-high-key lighting
-insert shot
-jib shot
-lens flares
-light leaks
-long lens
-long shot
-low-angle shot
-low-key color grading
-low-key lighting
-matte shot
-medium shot
-monochromatic color grading
-montage scene
-montage shot
-motion blur
-motion control
-muted color grading
-neon color grading
-night-for-day color grading
-over-the-shoulder shot
-overhead shot
-pan shot
-panning
-pastel color grading
-point-of-view shot
 prores
-quadtone color grading
-rack focus
-rear projection
-reverse shot
-saturated color grading
-screenshot
-shallow focus
-sharpen
-slow motion
-slow-motion shot
-soft light
-special effects
-split screen shot
-split-tone color grading
-starbursts
-steadicam
-steadicam shot
-stop-motion shot
-sunset color grading
 super 8mm film
-telephoto lens
-three-shot
-tilt shot
-tilt-shift
-time-lapse scene
-time-lapse shot
-tracking
-tracking shot
-traditional color grading
-traveling shot
-tritone color grading
-two-shot
 u-matic
-underwater shot
 vhs
-vibrant color grading
-vignetting
-visual effects
-warm color grading
-warm-toned color grading
-wide-angle lens
-worm's-eye view shot
-zoom shot

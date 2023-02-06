@@ -12,8 +12,8 @@ apocalyptic
 art
 art house
 asian
-b-movie
 b-horror
+b-movie
 baseball
 basketball
 biker
