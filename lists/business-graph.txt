@@ -1,0 +1,20 @@
+area graph
+bar graph
+box plot
+bubble chart
+column graph
+donut chart
+funnel chart
+gantt chart
+heat map
+histogram
+line graph
+marimekko chart
+pareto chart
+pie chart
+radial bar chart
+sankey diagram
+scatter plot
+stacked bar graph
+stacked column graph
+waterfall chart
