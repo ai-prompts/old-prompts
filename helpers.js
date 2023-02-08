@@ -9,11 +9,22 @@ const allLists = fs
   .filter(file => path.extname(file) === '.txt')
   .map(file => file.split('.')[0])
 
+const readListFile = (listName) => {
+  return fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
+}
+
 const list = (listName, opt) => {
   const options = opt || {}
   const excludes = options.excludes || []
   const includes = options.includes || []
-  let l = fs.readFileSync(`lists/${listName}.txt`).toString().split('\n').filter(e => String(e).trim())
+  const banned = readListFile('midjourney-banned')
+  let l = readListFile(listName)
+
+  if (!options.allowBanned) {
+    l = l.filter((i) => {
+      return !banned.some(b => i.includes(b))
+    })
+  }
 
   if (includes.length > 0) {
     l = l.filter((i) => {
@@ -131,35 +142,14 @@ const save = (prompts, file = 'prompts.txt') => {
   fs.writeFileSync(file, prompts.join('\n'))
 }
 
-const filterBanned = (prompts) => {
-  return prompts.filter((prompt) => {
-    return !banned().some(b => prompt.includes(b))
-  })
-}
-
-const stripBannedWords = (prompts) => {
-  return prompts.map(prompt => {
-    return banned().reduce((acc, bannedWord) => {
-      return acc.replace(bannedWord, '')
-    }, prompt).trim()
-  })
-}
-
-const banned = () => {
-  return list('midjourney-banned')
-}
-
 module.exports = {
   adjectiveNoun,
   animal,
   artist,
-  banned,
   cinematic,
   century,
   color,
   country,
-  filterBanned,
-  stripBannedWords,
   jobTitle,
   jobType,
   list,
