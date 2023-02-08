@@ -67,9 +67,6 @@ const adjectiveNoun = () => {
   return `${item('word-adjective')} ${item('word-noun')}`
 }
 
-
-}
-
 const artist = (count) => {
   return item('artist-full', count)
 }
@@ -86,8 +83,8 @@ const color = (count = 1) => {
   return _.sample(colors, count).join(', ')
 }
 
-const cinematic = (count = 1) => {
-  return fromAll('cinematic', count)
+const cinematic = () => {
+  return `${item('cinematic')}, ${item('cinematic-shot')}, ${item('cinematic-effect')}, ${item('cinematic-coloring')}`
 }
 
 const country = () => {
