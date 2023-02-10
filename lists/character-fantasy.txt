@@ -4,7 +4,8 @@ a centaur
 a cyclops
 a dark wizard
 a demon
-a demon prince/princess
+a demon prince
+a demon princess
 a dragon
 a dragon rider
 a dragon slayer
@@ -23,7 +24,7 @@ a hobbit
 a kraken
 a leprechaun
 a light wizard
-a mermaid/merfolk
+a mermaid
 a minotaur
 a mythical creature
 a nymph
@@ -32,7 +33,8 @@ a phoenix
 a satyr
 a shapeshifter
 a siren
-a sorceress/sorcerer
+a sorceress
+a sorcerer
 a sprite
 a succubus
 a troll

@@ -14,12 +14,14 @@ a demon hunter
 a demon-possessed individual
 a detective
 a detective with a troubled past
-a evil alien invader
-a evil corporation executive
-a evil sorceress/sorcerer
+an evil alien invader
+an evil corporation executive
+an evil sorceress
+an evil sorcerer
 a famous athlete
 a famous musician
-a fireman/firefighter
+a fireman
+a firefighter
 a gangster
 a ghost
 a ghost hunter
@@ -35,13 +37,15 @@ a hitman
 a intergalactic bounty hunter
 a journalist
 a killer
-a king/queen
+a king
+a queen
 a legendary monster
 a legendary pirate
 a mad bomber
 a mad scientist
 a martial artist
-a mermaid/merman
+a mermaid
+a merman
 a monster
 a movie star
 a mythical creature
@@ -53,7 +57,8 @@ a pirate
 a political activist
 a post-apocalyptic survivor
 a post-apocalyptic tribe leader
-a prince/princess
+a prince
+a princess
 a race car driver
 a religious cult member
 a robot
@@ -82,7 +87,8 @@ a traumatized survivor
 a traumatized veteran
 a vampire
 a vampire hunter
-a vampire queen/king
+a vampire queen
+a vampire king
 a vampire slayer
 a vigilante
 a war hero
@@ -90,7 +96,8 @@ a warrior
 a werewolf
 a witch coven leader
 a witch hunter
-a witch/wizard
+a witch
+a wizard
 a zombie
 a zombie apocalypse survivor
 a zombie hunter

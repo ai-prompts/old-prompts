@@ -9,7 +9,8 @@ a young ballerina
 a young blogger
 a young boxer
 a young chef
-a young cowboy/cowgirl
+a young cowboy
+a young cowgirl
 a young dancer
 a young detective
 a young doctor
@@ -21,7 +22,8 @@ a young fashion designer
 a young fire fighter
 a young firefighter
 a young gymnast
-a young hero/heroine
+a young hero
+a young heroine
 a young inventor
 a young journalist
 a young karate master
@@ -34,7 +36,8 @@ a young ninja warrior
 a young nurse
 a young pirate
 a young police officer
-a young prince/princess
+a young prince
+a young princess
 a young race car driver
 a young scientist
 a young scuba diver
@@ -46,5 +49,6 @@ a young surfer
 a young survivalist
 a young teacher
 a young time traveler
-a young wizard/witch
+a young wizard
+a young witch
 an animal sidekick
