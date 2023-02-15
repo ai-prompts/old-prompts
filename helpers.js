@@ -98,6 +98,10 @@ const cinematic = () => {
   return `${item('cinematic')}, ${item('cinematic-shot')}, ${item('cinematic-effect')}, ${item('cinematic-coloring')}`
 }
 
+const painting = () => {
+  return `${item('painting-technique')}, ${item('painting-combination')}, ${item('palette')}`
+}
+
 const country = () => {
   return faker.address.country()
 }
@@ -159,6 +163,7 @@ module.exports = {
   fromAll,
   name,
   save,
+  painting,
   shuffle,
   trending,
   year
