@@ -45,6 +45,18 @@ const lists = (lists, listOptions) => {
   return lists.map(l => list(l, listOptions)).flat()
 }
 
+const itemsFromRandomLists = (numberOfItems, numberOfLists) => {
+  const items = []
+  const listsToSample = allLists.filter(l => !['midjourney-banned', 'temp'].includes(l))
+  const randomLists = _.sample(listsToSample, numberOfLists)
+
+  randomLists.forEach((l) => {
+    items.push(item(l, numberOfItems))
+  })
+
+  return _.flatten(items).join(', ').trim()
+}
+
 const listsStarting = (start, listOptions) => {
   return lists(allLists.filter(l => l.startsWith(start)), listOptions)
 }
@@ -160,6 +172,7 @@ module.exports = {
   lists,
   listsStarting,
   item,
+  itemsFromRandomLists,
   fromAll,
   name,
   save,
