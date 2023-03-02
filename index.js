@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-
-const h = require('./helpers')
+import helpers from './helpers.js'
 const prompts = []
 const number = 10
 

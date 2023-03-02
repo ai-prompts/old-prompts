@@ -1,7 +1,7 @@
-const fs = require('fs')
-const path = require('path')
-const { faker } = require('@faker-js/faker')
-const _ = require('underscore')
+import fs from 'fs'
+import path from 'path'
+import { faker } from '@faker-js/faker'
+import _ from 'underscore'
 
 const listsPath = 'lists'
 const allLists = fs
