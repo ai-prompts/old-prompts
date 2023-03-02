@@ -15,7 +15,7 @@ const readListFile = (listName) => {
 
 const list = (listName, opt) => {
   const options = opt || {}
-  const excludes = options.excludes || []
+  const excludes = options.excludes || ["'", "#"]
   const includes = options.includes || []
   const banned = readListFile('midjourney-banned')
   let l = readListFile(listName)
@@ -90,18 +90,6 @@ const adjectiveNoun = () => {
   return `${item('word-adjective')} ${item('word-noun')}`
 }
 
-const artist = (count) => {
-  return item('artist-full', count)
-}
-
-const animal = (count) => {
-  return item('animal', count)
-}
-
-const trending = (count) => {
-  return item('trending', count)
-}
-
 const color = (count = 1) => {
   return _.sample(colors, count).join(', ')
 }
@@ -111,7 +99,7 @@ const cinematic = () => {
 }
 
 const painting = () => {
-  return `${item('painting-technique')}, ${item('painting-combination')}, ${item('palette')}`
+  return `${item('painting-technique')} technique, ${item('painting-combination')}`
 }
 
 const country = () => {
@@ -154,14 +142,52 @@ const shuffle = (a) => {
   return a
 }
 
+// example usage:
+// eachItem('cinematic', c => prompts.push(`a ${c}`))
+const eachItem = (listName, callback) => {
+  list(listName).forEach((i) => {
+    callback(i)
+  })
+}
+
 const save = (prompts, file = 'prompts.txt') => {
   fs.writeFileSync(file, prompts.join('\n'))
 }
 
-module.exports = {
+const camelCase = (str) => {
+  return str.replace(/-([a-z])/g, function (g) { return g[1].toUpperCase() })
+}
+
+
+const listHelpers = {}
+
+// make all lists available as methods
+allLists.forEach((list) => {
+  const method = camelCase(list)
+  helpers[method] = (count) => {
+    return item(list, count)
+  }
+})
+
+// for all lists starting with the same word and then a hyphen
+// e.g. 'word-adjective', 'word-noun'
+// add a helper method 'wordAll' that returns a random item from all lists starting with 'word'
+allLists.forEach((list) => {
+  const parts = list.split('-')
+  if (parts.length > 1) {
+    const method = camelCase(parts[0]) + 'All'
+    if (!helpers[method]) {
+      helpers[method] = (count) => {
+        return fromAll(parts[0], count)
+      }
+    }
+  }
+})
+
+const helpers = {}
+
+Object.assign(helpers, listHelpers, {
   adjectiveNoun,
-  animal,
-  artist,
   cinematic,
   century,
   color,
@@ -172,12 +198,14 @@ module.exports = {
   lists,
   listsStarting,
   item,
+  eachItem,
   itemsFromRandomLists,
   fromAll,
   name,
   save,
   painting,
   shuffle,
-  trending,
   year
-}
+})
+
+export default helpers
