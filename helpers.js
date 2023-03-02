@@ -164,7 +164,7 @@ const listHelpers = {}
 // make all lists available as methods
 allLists.forEach((list) => {
   const method = camelCase(list)
-  helpers[method] = (count) => {
+  listHelpers[method] = (count) => {
     return item(list, count)
   }
 })
@@ -176,8 +176,8 @@ allLists.forEach((list) => {
   const parts = list.split('-')
   if (parts.length > 1) {
     const method = camelCase(parts[0]) + 'All'
-    if (!helpers[method]) {
-      helpers[method] = (count) => {
+    if (!listHelpers[method]) {
+      listHelpers[method] = (count) => {
         return fromAll(parts[0], count)
       }
     }
