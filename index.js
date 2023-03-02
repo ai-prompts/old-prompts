@@ -1,25 +1,21 @@
 #!/usr/bin/env node
 import helpers from './helpers.js'
+import workspace from './workspace.js'
+import saveTemplate from './save-template.js'
 const prompts = []
-const number = 10
 
-/*
-
-Generate your prompts here
-
-For example:
-
-h.list('artists').forEach((a) => {
-  prompts.push(`a painting by ${a}`)
-})
-
-for (let i = 0; i < number; i++) {
-  prompts.push(`${h.item('word-noun', 4)}, ${h.item('prayers', 5)}`)
+const times = (n, fn) => {
+  for (let i = 0; i < n; i++) {
+    fn()
+  }
 }
 
-*/
+const finish = () => {
+  // helpers.shuffle(prompts)
+  prompts.forEach(p => console.log(p))
+  helpers.save(prompts)
+  saveTemplate()
+}
 
-// h.shuffle(prompts)
-prompts.forEach((p, i) => {
-  console.log(`${p}`)
-})
+times(50, () => prompts.push(workspace(helpers)))
+finish()
